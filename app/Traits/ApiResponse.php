@@ -10,7 +10,7 @@ trait ApiResponse
             'data' => $data,
             'message' => $message,
         ], $code);
-    }php artisan make:request ApiRequest
+    }
 
     protected function apiError($errors, $code, $message = null)
     {
